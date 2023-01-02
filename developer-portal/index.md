@@ -1,45 +1,21 @@
 ---
-title: Training program
+title: Lytex Pagamentos
 ---
 
-# Training program
+# Sobre a Lytex Pagamentos
 
-This interactive training program is designed to help you understand how to create and edit content using Redocly's developer portal.
-It's a great companion to our [developer portal docs](https://docs.redoc.ly/developer-portal/introduction/).
+A LyTex Pagamentos é uma Fintech com foco na potencialização de resultados em empresas, atuando com meios de pagamentos digitais. Somos reconhecidos pela excelência na entrega de soluções específicas para aceleração de crescimento por meio da tecnologia e inovação estratégica. Tornamos a gestão financeira da sua empresa mais eficiente com nossas soluções. Automatizamos seus processos de recebimentos únicos ou recorrentes, aumentando a produtividade do seu negócio. Temos a certificação internacional PCI-DSS de segurança, garantindo mais confiança e eficiência nas suas transações.
 
-Spend between an hour and a day playing with the most commonly utilized features.
+Oferecemos aos desenvolvedores uma API simples e poderosa, para integrar pagamentos por boleto e PIX em seu site ou aplicação. Antes de prosseguir e necessário cria uma conta em nosso sistema. [Click aqui para criar sua conta agora](https://pay.lytex.com.br/auth/registration).
 
-## Prerequisites
-- Basic Git and markdown knowledge
-- Node and yarn installed
-- A text editor or IDE (we like VS Code)
-- [Setup the developer portal](setup.md)
+<img src='https://lytex.com.br/wp-content/uploads/2022/10/WhatsApp-Image-2022-10-10-at-17.46.41.webp' />
 
-## Training exercises
+## Pré-requisitos
+- Ter uma conta no sistema da Lytex.  [Criar conta](https://pay.lytex.com.br/auth/registration)
+- Ter todos os documentos aprovados 
 
-Follow the training exercises sequentially.
-Or cherry-pick them independently if you're limited on time.
+## O que fazer com a nossa API 
 
-- [Plain markdown pages](markdown.md)
-- [Changing the url paths](awesome/folders.md)
-- [Markdown with a mermaid diagram](mermaid.md)
-- [The page table of contents](page-table-of-contents.md)
-- [Adding a page to the sidebar navigation](sidebar-nav.md)
-- [Disabling the search box](search.md)
-- [Changing nav and footer links](nav-footer.md)
-- [Change your logo](logo.md)
-- [Change metadata](metadata.md)
-- [Change your colors](colors.md)
-- [Change your typography](typography.md)
-- [Enable Google Analytics](analytics.md)
-- [Modify the homepage](home-page.md)
-- [Modify the OAS definitions](oas-definitions.md)
-- [Adding a response object to an MDX page](mdx.mdx)
-- [Upgrade to a different version of the developer portal](upgrade.md)
+API de Pagamentos desenvolvida para simplificar sua vida. Com poucos cliques, você conhecerá os endpoints que farão sentido para seu negócio. A gente sabe que seu tempo é precioso! Por isso, deixamos tudo pronto para você. É só acessar clicando no botão abaixo e ver como é simples integrar com a gente.
 
-Upon completion, you may have questions, or you may be ready to start building your content out.
-Learn how to [deploy the developer portal](https://docs.redoc.ly/ci-cd-workflows/) to our global CDN or contact us about purchasing an enterprise license key.
 
-## Asking for help
-
-Don't be shy... we're here to help.

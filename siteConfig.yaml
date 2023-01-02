@@ -1,20 +1,22 @@
+
 meta:
-  title: Redocly Training
-  description: The best API documentation generator ever.
-  siteUrl: https://developer-portal-starter.redoc.ly
-  keywords: redocly developer portal, api portal starter, api reference docs
-  lang: en-US
+  title: Documentacao
+  description: Documentação Lytex Pagamentos
+  siteUrl: https://lytex.com.br/
+  keywords: Documentação Lytex Pagamentos
+  lang: pt-BR
 linkChecker:
   severity: warning
   options:
     CheckExternal: false
 logo:
-  image: ./images/logo.png
+  image: ./images/lytex_logo_white.png
   altText: Redocly Training
 toc:
   enable: true
+  maxDepth: 2
 oasDefinitions:
-  petstore: ./openapi/petstore.yaml
+  petstore: https://api-pay.lytex.com.br/v1/open-api-v3-spec.json
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
@@ -26,18 +28,18 @@ stylesheets:
 #scripts:
 #  - ./static/intercom.js
 nav:
+  - search: false
 
-  - label: Training exercises
+  - label: Sobre a Lytex
     page: developer-portal/index.md
 
-  - label: External docs
-    icon: ./images/redocly-icon-white.png
+  - label: Documentação
+  #  icon: ./images/redocly-icon-white.png
     href: https://redoc.ly/docs/developer-portal/introduction/
 
-  - search: true
 
 footer:
-  copyrightText: Copyright © Redocly 2019-2021. All right reserved.
+  copyrightText: Copyright © Lytex 2021-2023.
   columns:
     - group: Legal
       items:

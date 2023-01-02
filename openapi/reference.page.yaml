@@ -5,4 +5,9 @@ settings:
     languages:
       - lang: curl
       - lang: JavaScript
+        label: JS
       - lang: Node.js
+        label: Node
+      - lang: Java
+      - lang: PHP
+  hideRequestPayloadSample: true
