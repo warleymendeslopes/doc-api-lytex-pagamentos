@@ -5,6 +5,18 @@ Para concluir este passo e nescessario que você tenha todos os documentos aprov
 
 ## Preparando o JSON
 
+Usando a rota **/v1/oauth/obtain_token**, copie e altere o json abaixo com as informaçãoes de acordo com as credenciais informada no seu painel de configuraçao, se ainda nao configurou sua api [Clique aui para aprender como configurar](https://pay.lytex.com.br/auth/registration).
+
+As posições do json a ser editadas são: 
+- clientId </br>
+Deve-se colocar o cliente ID 
+- clientSecret </br>
+Deve-se colocar o cliente ID 
+- scopes </br>
+Deve-se colocar as permissões que esse token precisa ter 
+
+
+
 ```json
 {
     "grantType": "clientCredentials",

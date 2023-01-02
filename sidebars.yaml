@@ -3,9 +3,10 @@ training:
   - group: Criar Primeira cobrança
     expanded: false
     pages:
+       - label: Criar Chave de API
+         page: developer-portal/generate-api-key.md
        - label: Preparando JSON
          page: developer-portal/preparing-json.md
-
     #  - label: Setup
     #    page: developer-portal/setup.md
     #  - label: Markdown
