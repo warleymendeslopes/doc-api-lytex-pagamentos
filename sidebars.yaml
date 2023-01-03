@@ -1,11 +1,11 @@
 training:
   - page: developer-portal/index.md
-  - group: Criar Primeira cobrança
+  - group: Criar primeira cobrança
     expanded: false
     pages:
-       - label: Criar Chave de API
+       - label: Criar chave de API
          page: developer-portal/generate-api-key.md
-       - label: Preparando JSON
+       - label: Criando primeira fatura
          page: developer-portal/preparing-json.md
     #  - label: Setup
     #    page: developer-portal/setup.md
