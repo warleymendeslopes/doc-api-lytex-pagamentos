@@ -5,8 +5,10 @@ training:
     pages:
        - label: Criar chave de API
          page: developer-portal/generate-api-key.md
-       - label: Criando primeira fatura
-         page: developer-portal/preparing-json.md
+       - label: Criando token de acesso
+         page: developer-portal/preparing-json-accessToken.md
+       - label: Criando fatura
+         page: developer-portal/create-invoices.md
     #  - label: Setup
     #    page: developer-portal/setup.md
     #  - label: Markdown
