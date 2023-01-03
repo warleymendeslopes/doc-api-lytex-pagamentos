@@ -21,13 +21,6 @@ Para gerar esse token utilizarmos a rota **/v1/oauth/obtain_token**
 
 
 
-<video width="100%" height="100%"  autoplay loop controls>
+<video width="100%" height="100%" loop controls>
   <source src="images/criando-token-de-acesso.mov" type="video/mp4">
 </video>
-
-
-
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-title: Demo API Portal
+title: Lytex Pagamentos
 ---
 
 import {
@@ -18,7 +18,8 @@ import {
   NavBar,
 } from '@redocly/developer-portal/ui';
 
-import icon1 from './images/icon1.png';
+import {color} from './style.css'
+import icon1 from './images/lytex.jpg';
 import launchFastIcon from './images/launch-fast.svg';
 import icon3 from './images/icon3.png';
 import bookManagementIcon from './images/book-management.svg';
@@ -26,22 +27,29 @@ import foundOrPrivate from './images/found-or-private.svg';
 
 export default LandingLayout;
 
-<Jumbotron>
+<Jumbotron className="lytex-hero" bgImage={icon1}>
   <NavBar location={props.location} standalone={false} />
-  <H1>Redocly training</H1>
-  <H2>A starter developer portal with training exercises</H2>
+  <H1 className="teste warke" style={color}>Lytex Pagamentos</H1>
+  <H2>A melhor e mais simples API de Cobranças do Mercado</H2>
   <Flex p={20} justifyContent="center">
-    {/* <Button size="xlarge" to="https://app.redoc.ly">
-      Redocly app
-    </Button> */}
      <Button variant="outlined" size="xlarge" to="developer-portal/index.md">
-      Get started
+      Documentação
     </Button>
-    {/* <Button variant="outlined" size="xlarge" to="https://redoc.ly/docs">
-      Docs
-    </Button> */}
   </Flex>
 </Jumbotron>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <Box my={25}>
   <SectionHeader>
     Create your <Emphasis> developer portal </Emphasis> today!
@@ -65,11 +73,14 @@ export default LandingLayout;
         aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
         an usu.
     </ThinTile>
+    
   </FlexSection>
-  {/* <Jumbotron parallaxEffect bgImage={icon1}>
-    <H1>Tutorials</H1>
-    <H2>Get setup faster...</H2>
-  </Jumbotron> */}
+
+
+
+
+
+
   <SectionHeader>
     <Emphasis>Need help? </Emphasis>
     Try our training exercises.

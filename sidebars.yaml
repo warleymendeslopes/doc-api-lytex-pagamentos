@@ -1,7 +1,7 @@
 training:
   - page: developer-portal/index.md
   - group: Criar primeira cobrança
-    expanded: false
+    expanded: true
     pages:
        - label: Criar chave de API
          page: developer-portal/generate-api-key.md
@@ -45,7 +45,7 @@ training:
     #  - label: Creating React components
     #    page: developer-portal/custom-component.mdx
   - group: Documentação Lytex
-    expanded: false
+    expanded: true
     pages:
       - page: openapi/reference.page.yaml/*
 
