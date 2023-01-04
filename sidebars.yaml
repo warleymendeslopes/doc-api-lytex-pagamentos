@@ -9,8 +9,8 @@ training:
          page: developer-portal/preparing-json-accessToken.md
        - label: Criando fatura
          page: developer-portal/create-invoices.md
-    #  - label: Setup
-    #    page: developer-portal/setup.md
+       - label: Setup
+         page: developer-portal/redoc-integration.md
     #  - label: Markdown
     #    page: developer-portal/markdown.md
     #  - label: Folder structure
